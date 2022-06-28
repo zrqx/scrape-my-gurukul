@@ -41,14 +41,14 @@ You shall not misuse this tool to gain unauthorised access. The author will not 
 ## Usage
 
 ```bash
-python3 scrapy.py -u USN -p PASSWORD
+python3 scrape.py -u USN -p PASSWORD
 ```
 USN & PASSWORD should be replaced with respective values.
 
 The program returns prints json data to the stdout, which can be redirected to file
 
 ```
-python3 scrapy.py -u USN -p PASSWORD > hello.json
+python3 scrape.py -u USN -p PASSWORD > hello.json
 ```
 ### Tested on Elementary OS 5.1.7 Hera (Builtz on Ubuntu 18.04.4 LTS)
 
